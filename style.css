@@ -69,6 +69,13 @@ ul { list-style: none; }
 .logo-text { display: flex; flex-direction: column; }
 .logo-name { font-family: 'Cinzel', serif; font-size: 1.1rem; font-weight: 700; color: var(--accent-rosegold-dark); letter-spacing: 1px; }
 .logo-sub { font-size: 0.65rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 2px; margin-top: -2px; }
+.logo-monogram {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-rosegold), var(--accent-rosegold-dark));
+  color: #fff; font-family: 'Cinzel', serif; font-size: 1.3rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; box-shadow: 0 4px 15px rgba(207,160,148,0.35);
+}
 
 .nav-menu { display: flex; gap: 30px; }
 .nav-menu a { font-size: 0.85rem; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--text-primary); }
